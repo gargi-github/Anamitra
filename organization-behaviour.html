@@ -40,7 +40,7 @@
                             <li><a href="executive-coaching.html">Executive Coaching</a></li>
                             <li><a href="executive-education.html">Executive Education</a></li>
                             <li><a href="leadership.html">Leadership Development</a></li>
-							<li><a href="#notes"> Organization Behaviour</a></li>
+							<li><a href="organization-behaviour.html"> Organization Behaviour</a></li>
                         </ul>
                     </li>
                     <li><a href="myself.html">Anamitra</a></li>
@@ -55,13 +55,20 @@
 			
 					</li>
 			        <li><a href="#contact-block">Contact</a></li>
-        </ul>
+                </ul>
         </nav>
          <ol>
                 <li><a href="assets/img/Anamitra Chatterjee CV1.pdf" target="_blank"><img src="assets/img/icon1.png" alt="" /> Bio CV</a></li>
-                <li><a href="index.html#video"><img src="assets/img/icon2.png" alt="" /> Profile Video</a></li>
+                <li><a href="#video"><img src="assets/img/icon2.png" alt="" /> Profile Video</a></li>
             </ol>
       <a href="javascript:void(0)" class="open-menu"><i class="fas fa-bars"></i></a>
+		<div>
+		<audio id="myAudio" src="assets/audio/tagore.mp3"></audio>
+<button id="playBtn" style="color:Red; background: rgb(239,228,111); border-color:black; "><i class="fa-regular fa-circle-play"></i></button>
+<button id="stopBtn" style="color:Red; background: rgb(239,228,111);"><i class="fa-solid fa-circle-stop"></i></button>
+		
+		</div>
+		
     </div>
   </header>
       
@@ -96,14 +103,9 @@
            <div class="container">
 		  <h2>Organization Behaviour</h2>
 			   
-			   Anamitra`s executive education & teaching interest areas include<br>
-<strong style="font-weight: 600">Organisation Behaviour (OB)  & Human Development.</strong><br><br>
-			   
-			   Anamitra Chatterjee, Accredited Executive Coach & Faculty has had education and experience<br>
-of 25+ years in India & UK across Deutsche Bank and PwC, Hult Ashridge UK & IIMs in India.<br><br>
-			   
-			   As Faculty, he designs and delivers executive
-education programmes<br> on organization behaviour OB & HR, OD and leadership development.<br /><br />
+			   Anamitra Chatterjee has had diverse education and work experience of 25+ years in India & UK across<br>
+Deutsche Bank and PwC, Hult Ashridge UK and IIMs in India. As Faculty, he designs and delivers executive
+education<br> programmes on organization behaviour OB HR, OD and leadership development.<br /><br />
 			  
 			  Anamitra Chatterjee, Accredited Executive Coach (EMCC) holds a Master’s degree, MSc Masters in <br>Executive
 Coaching (AMEC) from Hult Ashridge Centre for Coaching (ACC), UK.<br /><br />
@@ -227,5 +229,24 @@ Coaching (AMEC) from Hult Ashridge Centre for Coaching (ACC), UK.<br /><br />
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/jquery.fancybox.min.js"></script>
     <script src="assets/js/main.js"></script>
+	<script>
+	$(document).ready(function() {
+  var audio = $("#myAudio")[0]; // get the audio element
+
+  // play audio when play button is clicked
+  $("#playBtn").click(function() {
+    audio.play();
+  });
+
+  // pause audio when stop button is clicked
+  $("#stopBtn").click(function() {
+    audio.pause();
+    audio.currentTime = 0; // reset audio to beginning
+  });
+});
+	
+	
+	</script> 	  
+		  
   </body>
 </html>

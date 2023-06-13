@@ -386,7 +386,8 @@ a.open-menu {
 
 .testimonial-wrap{ 
 	text-align: center;
-	padding-top: 100px;
+/*	padding-top: 100px;*/
+	padding-top: 50px;
 }
 .testimonial-wrap h2 {
 	font-family: 'Hind', sans-serif;
@@ -1054,6 +1055,12 @@ overflow: hidden;
     margin-bottom: 40px;
 	color: #333333;
 }
+.number-block{ padding: 20px; box-shadow: 5px 10px 18px #888888; display: block; width:68%; margin:0 auto; height: 100px;background-color:#089697;color:#ffffff !important; }
+.number-block ul{ margin:0 auto; padding:0 25px; }
+.number-block ul li{margin:0 45px; width:15%; display: inline-block;  }
+.number-block ul li span{ font-weight: bold; font-size:40px;  }
+
+
 
 
 @media only screen and (max-width: 1199px) {
