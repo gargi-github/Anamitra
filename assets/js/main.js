@@ -79,7 +79,7 @@ jQuery(document).ready(function() {
         loop:true,
         margin:30,
         autoplay:true,
-        autoplayTimeout:2000,
+        autoplayTimeout:1500,
         autoplayHoverPause:true,
         responsiveClass:true,
         responsive:{
