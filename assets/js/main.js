@@ -70,7 +70,7 @@ jQuery(document).ready(function() {
 			'<i class="fa-solid fa-chevron-right"></i>'
 		],
         autoplay:true,
-        autoplayTimeout:2000,
+        autoplayTimeout:4000,
         autoplayHoverPause:true
     });
 
