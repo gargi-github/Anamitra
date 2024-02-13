@@ -642,14 +642,16 @@ section.anamitra-body-content {
 .txt-block ul{
 	list-style: inside;
 	margin-left: 30px;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 .txt-block ul li{
 	margin-bottom: 6px;
+	line-height: 25px;
 }
 .txt-block {
     margin-top: 25px;
 }
+.txt-block-img{padding-top: 35px;}
 .bottom-img-part img, .exclusive-bottom-img img {
     max-width: 100%;
 	width: 100%;
