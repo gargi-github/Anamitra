@@ -1061,7 +1061,9 @@ overflow: hidden;
 .number-block ul{ margin:0 auto; padding:0 25px; }
 .number-block ul li{margin:0 45px; width:15%; display: inline-block;  }
 .number-block ul li span{ font-weight: bold; font-size:40px;  }
-
+.myself-thanks-part{ position: relative; display: block;}
+.icon { float: left; width: auto; padding-right: 10px; padding-top: 10px;}
+.myself-link { float: left; color: #333; width: 70%; line-height: 52px; font-weight: bold; padding-top: 10px;}
 
 
 
