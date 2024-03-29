@@ -986,7 +986,8 @@ height:609px;
 .Organization-banner-wrap {
 	overflow: hidden;
 	background: url("../img/Organization-Behaviour-banner.png") no-repeat center;
-	min-height:609px;
+/*	min-height:609px;*/
+	min-height:700px;
 	background-size: cover;
 	
 	
