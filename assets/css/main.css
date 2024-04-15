@@ -462,6 +462,24 @@ a.open-menu {
     background: #089697;
 	border-color: #008975;
 }
+.more-link {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    background: #008975;
+    border: 2px solid #089697;
+    display: block;
+	text-align: center;
+	padding: 10px 30px;
+    border-radius: 10px;
+	margin: 30px auto 0 auto;
+	width: 100px;
+}
+.more-link:hover {
+    background: #089697;
+	border-color: #008975;
+}
+
 .client-wrap {
 	padding: 100px 0;
 	text-align: center;
