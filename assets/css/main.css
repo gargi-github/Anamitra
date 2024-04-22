@@ -994,10 +994,8 @@ ul.pagination-wrap li.current span {
 .leadership-banner-wrap {
 	overflow: hidden;
 	background: url("../img/leadership-banner.jpg") no-repeat center;
-height:609px;
-	background-color:#9c9c9c ;
-	
-	
+	height:609px;
+	background-size:cover;	
 }
 
 
