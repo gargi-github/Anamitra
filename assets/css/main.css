@@ -826,10 +826,10 @@ section.anamitra-body-content {
     list-style: decimal;
     padding: 20px 0 20px 20px;
 }
-.awep-wrap img {
+/*.awep-wrap img {
 	border: 20px solid #fff;
 	box-shadow: 0px 0px 0px 1px #000;
-}
+}*/
 .education-txt strong{ font-weight:normal;  color: #c1f313; font-style: italic; }
 .education-txt li { margin-bottom: 20px;font-weight:bold; }
 .education-txt li p{ font-size:16px; font-weight:normal;  }
