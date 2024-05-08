@@ -701,7 +701,7 @@ section.anamitra-body-content {
 .coaching-banner-wrap {
 	overflow: hidden;
 	background: url("../img/coaching-banner.jpg") no-repeat center;
-	height: 609px;
+	/*height: 609px;*/
 	background-size: cover;
 	
 	
@@ -714,7 +714,7 @@ section.anamitra-body-content {
 }
 
 .publication-banner-wrap{
-	background: url("../img/publications-ban-img.jpg") no-repeat center;
+	background: url("../img/publications-ban-img.png") no-repeat center;
 	height: 609px;
 	background-size: cover;
 	
