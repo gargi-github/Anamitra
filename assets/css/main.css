@@ -728,11 +728,16 @@ section.anamitra-body-content {
 }
 .pad-video{ margin:20px 0; }
 .myself-ban{
+/*
 	background: url("../img/myself-ban.jpg") no-repeat center;
-	height: 609px;
-	background-size: cover; 
+	background-size: cover; height: 609px;
+*/
+overflow: hidden;		
 
 }
+
+.myself-ban img{ width:100%;  }
+
 .coaching-banner-wrap p, .gallery-banner-wrap  p, .publication-banner-wrap p, .video-banner-wrap p, .myself-ban p{ color:#fff; font-weight: normal;}
 
 
@@ -1082,7 +1087,8 @@ overflow: hidden;
 .icon { float: left; width: auto; padding-right: 10px; padding-top: 10px;}
 .myself-link { float: left; color: #333; width: 70%; line-height: 52px; font-weight: bold; padding-top: 10px;}
 
-
+.service-wrap img.img-fluid { width: 100%
+}
 
 @media only screen and (max-width: 1199px) {
 	.header-wrapper.fixed {
