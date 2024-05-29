@@ -730,9 +730,9 @@ section.anamitra-body-content {
 .myself-ban{
 /*
 	background: url("../img/myself-ban.jpg") no-repeat center;
-	background-size: cover; height: 609px;
+	background-size: cover; 
 */
-overflow: hidden;		
+overflow: hidden; min-height: 609px;		
 
 }
 
