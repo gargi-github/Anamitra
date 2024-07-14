@@ -139,7 +139,7 @@ a.open-menu {
     background: #008975;
     border: 2px solid #089697;
     display: block;
-    width: 140px;
+    width: 90px;
     height: 50px;
     text-align: center;
     line-height: 50px;
@@ -150,6 +150,12 @@ a.open-menu {
     background: #089697;
 	border-color: #008975;
 }
+
+a.btn-color1{ background-color:#0848AB!important; border-color:#00054b !important;}
+
+a.btn-color1:hover{ background-color: #0967c !important;}
+
+
 .navigation > ul > li > .sub-menu {
 	display: none;
 	border-top: 5px solid #d5dede;
