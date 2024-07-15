@@ -127,7 +127,7 @@ a.open-menu {
 
 .header-wrapper ol li {
 	display: inline-block;
-	margin-left: 10px;
+	margin-left: 5px;
 }
 .header-wrapper ol li:first-child {
 	margin-left: 0;
@@ -139,8 +139,9 @@ a.open-menu {
     background: #008975;
     border: 2px solid #089697;
     display: block;
-    width: 90px;
+    width:auto;
     height: 50px;
+	padding: 0 10px;
     text-align: center;
     line-height: 50px;
 	vertical-align: middle;
