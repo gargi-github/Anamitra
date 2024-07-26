@@ -1096,6 +1096,10 @@ overflow: hidden;
 
 .service-wrap img.img-fluid { width: 100%
 }
+.footer-top{ background:url( "../img/pattern-1.jpg")#f0f8ff;}
+
+
+
 
 @media only screen and (max-width: 1199px) {
 	.header-wrapper.fixed {
