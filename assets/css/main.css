@@ -768,7 +768,7 @@ overflow: hidden; min-height: 609px;
 	/* padding: 0 44px; */
 
 }
-.top-space{ padding-top:80px;}
+.top-space{ padding-top:50px;}
 .ex-content p b{
 	font-weight: 700;
     font-style: italic;
@@ -816,7 +816,7 @@ overflow: hidden; min-height: 609px;
 
 }
 .exclusive-bottom-img {
-    margin: 50px 0 70px;
+    margin: 50px 0 0px;
 }
 /* Executive-Education styling */
 
@@ -1098,7 +1098,7 @@ overflow: hidden;
 }
 .footer-top{ background:url( "../img/pattern-1.jpg")#f0f8ff;}
 
-
+.float-left{ float:left;}
 
 
 @media only screen and (max-width: 1199px) {
