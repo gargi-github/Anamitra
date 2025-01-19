@@ -587,6 +587,24 @@ a.btn-color1:hover {
   border-color: #008975;
 }
 
+.conf-box a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  background: #008975;
+  border: 2px solid #089697;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 30px;
+  vertical-align: middle;
+  border-radius: 10px;
+ 
+}
+.conf-box a:hover {
+  background: #089697;
+  border-color: #008975;
+}
+
 .testimonial-wrap {
   text-align: center;
   /*	padding-top: 100px;*/
