@@ -333,7 +333,7 @@ a.open-menu {
   pointer-events: none;
 }
 
-.header-wrapper ol .custom-dropdown li a:hover {
+.header-wrapper ol .custom-dropdown li a:hover, .btn1 ul li a:hover {
   color: #ffffff;
   background: #008975;
 }
@@ -350,7 +350,8 @@ a.btn-color1 {
 a.btn-color1:hover {
   background-color: #d30202 !important;
 }
-
+.btn1{ border:0; background-color:transparent; font-weight: 500; font-size:19px;  }
+.btn1:hover{color: #008975}
 .navigation > ul > li > .sub-menu {
   display: none;
   border-top: 5px solid #d5dede;
@@ -1552,7 +1553,7 @@ ul.pagination-wrap li.current span {
   .logo img {
     width: 200px;
   }
-  .navigation > ul > li > a {
+  .navigation > ul > li > a, .btn1 {
     font-size: 0.85rem;
   }
   .header-wrapper ol li a {
