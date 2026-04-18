@@ -968,6 +968,15 @@ section.anamitra-body-content {
   height: 609px;
   background-size: cover;
 }
+.publication-banner-wrap1 {
+  background: url("../img/publications-ban-img2.jpg") no-repeat center;
+  height: 609px;
+  background-size: cover;
+}
+
+
+
+
 
 .video-banner-wrap {
   background: url("../img/video-ban-img.jpg") no-repeat center;
