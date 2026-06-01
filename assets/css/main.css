@@ -1407,7 +1407,7 @@ ul.pagination-wrap li.current span {
 }
 .number-block ul {
   margin: 0 auto;
-  padding: 0 25px;
+  padding: 0 40px;
   display: flex;
   justify-content: space-between;
 }
