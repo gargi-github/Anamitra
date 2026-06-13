@@ -1341,6 +1341,7 @@ ul.pagination-wrap li.current span {
   font-weight: normal;
   font-size: 18px;
   margin-left: 30px;
+  margin-bottom:25px;
 }
 
 .video-container {
